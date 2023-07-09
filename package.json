@@ -1,0 +1,35 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Collection about leetcode pratice",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run dev",
+    "dev": "yarn run dumi dev --port=8090",
+    "lint:md": "lint-md *.md",
+    "lint:fix": "lint-md *.md --fix",
+    "build": "yarn run dumi build",
+    "deploy": "bash ./scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyt520/leetcode.git"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithm",
+    "data-structure"
+  ],
+  "author": "yyt520",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyt520/leetcode/issues"
+  },
+  "homepage": "https://github.com/yyt520/leetcode#readme",
+  "devDependencies": {
+    "dumi": "^1.1.50",
+    "lint-md": "^0.2.0",
+    "prism-react-renderer": "^1.1.1",
+    "prismjs": "^1.21.0"
+  }
+}
